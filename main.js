@@ -1,9 +1,4 @@
 /* eslint-disable no-unused-vars */
-var $enterPangram = document.querySelector('#enterPangram')
 var $pangram = document.querySelector('#pangram')
 
-$pangram.addEventListener('keydown', copyText)
-
-function copyText() {
-
-}
+$pangram.textContent = 'Jaded zombies acted quaintly but kept driving their oxen forward.'
