@@ -6,6 +6,7 @@ var typeThis = 'Jaded zombies acted quaintly but kept driving their oxen forward
 
 var letters = typeThis.split('')
 
+document.addEventListener('DOMContentLoaded', createPrompt(letters))
 
 function createLetter(character) {
   var $pan = document.createElement('span')
