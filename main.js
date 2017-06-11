@@ -19,6 +19,4 @@ function createPrompt(sentence) {
     var zombie = createLetter(sentence[i])
     $pangram.appendChild(zombie)
   }
-  //loop through sentence and call createLetter
-  //return prompt
 }
