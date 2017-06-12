@@ -9,7 +9,7 @@ var letters = typeThis.split('')
 document.addEventListener('DOMContentLoaded', createPrompt(letters))
 
 var $firstChild = $pangram.children[0]
-
+//make first array item active
 $firstChild.setAttribute('class', 'active')
 
 //creating span with one character inside
