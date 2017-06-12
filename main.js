@@ -24,13 +24,15 @@ function matching(event) {
   else {
     $activeChar.classList.add('incorrect')
   }
+
   $activeChar.classList.remove('active')
   $activeChar.nextSibling.setAttribute('class','active')
+
+  var $correct = document.querySelectorAll('.correct')
+  var score = $correct.length/typeThis.length
+  var $totalScore = document.querySelector('.total-score')
+
 }
-
-var $score = document.querySelector('.total-score')
-var $correct = document.querySelectorAll('.correct')
-
 
 function createLetter(character) {
   var $pan = document.createElement('span')

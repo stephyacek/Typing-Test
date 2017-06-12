@@ -15,3 +15,12 @@
 input {
   width: 400px;
 }
+
+div {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.total-score {
+  color: green;
+}
