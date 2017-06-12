@@ -1,3 +1,10 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #e6f5ea;
+}
 
 .active {
   font-weight: bold;
@@ -17,23 +24,34 @@ input {
 }
 
 div {
-  margin-top: 20px;
   font-weight: bold;
   text-align: center;
+  border-style: groove;
+  width: 130px;
+  margin: 0 auto;
 }
 
 .total-score {
   color: #55ce3a;
+  border-right: none;
+  padding: 0;
 }
 
 form {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 #pangram {
   text-align: center;
+  padding: 2rem;
 }
 
 h1 {
   text-align: center;
+  padding: 4rem;
+}
+
+hr {
+  margin: 1rem;
 }
