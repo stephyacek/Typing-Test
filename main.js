@@ -20,7 +20,7 @@ function matching(event) {
   //Selecting first active character
   var $activeChar = document.querySelector('.active')
   //If typed correct, give 'correct' class
-  if (event.key === $activeChar.textContent){
+  if (event.key === $activeChar.textContent.toLowerCase()){
     $activeChar.classList.add('correct')
   }
   //If typed incorrect, give 'incorrect' class
