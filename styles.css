@@ -5,7 +5,7 @@
 }
 
 .correct {
-  color: green;
+  color: #55ce3a;
 }
 
 .incorrect {
@@ -14,4 +14,26 @@
 
 input {
   width: 400px;
+}
+
+div {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.total-score {
+  color: #55ce3a;
+}
+
+form {
+  text-align: center;
+}
+
+#pangram {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
