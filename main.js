@@ -2,6 +2,7 @@
 
 var $pangram = document.querySelector('#pangram')
 
+
 var $input = document.querySelector('.input')
 
 var typeThis = 'Jaded zombies acted quaintly but kept driving their oxen forward.'
@@ -11,6 +12,7 @@ var letters = typeThis.split('')
 document.addEventListener('DOMContentLoaded', createPrompt(letters))
 
 var $firstChild = $pangram.children[0]
+
 //make first array item active
 $firstChild.setAttribute('class', 'active')
 
@@ -31,6 +33,8 @@ function matching(event) {
   $activeChar.classList.remove('active')
   $activeChar.nextSibling.setAttribute('class','active')
 }
+
+$firstChild.setAttribute('class', 'active')
 
 //creating span with one character inside
 function createLetter(character) {
