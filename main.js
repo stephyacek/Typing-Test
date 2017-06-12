@@ -28,6 +28,8 @@ function matching(event) {
   $activeChar.nextSibling.setAttribute('class','active')
 }
 
+var $score = document.querySelector('.total-score')
+var $correct = document.querySelectorAll('.correct')
 
 
 function createLetter(character) {
