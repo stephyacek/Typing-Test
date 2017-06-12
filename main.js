@@ -14,9 +14,21 @@ var $firstChild = $pangram.children[0]
 //make first array item active
 $firstChild.setAttribute('class', 'active')
 
-$input.addEventListener('keydown', function)
+$input.addEventListener('keydown', matching)
 
-//function HERE
+function matching(event) {
+  //Selecting first active character
+  var $activeChar = document.querySelector('.active')
+  //If typed correct, give 'correct' class
+  if (event.key === $activeChar.textContent){
+    $activeChar.classList.add('correct')
+  }
+  //If typed incorrect, give 'incorrect' class
+  else {
+    $activeChar.classList.add('incorrect')
+  }
+
+}
 
 //creating span with one character inside
 function createLetter(character) {
