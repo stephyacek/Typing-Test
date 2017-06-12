@@ -27,7 +27,9 @@ function matching(event) {
   else {
     $activeChar.classList.add('incorrect')
   }
-
+  //Move to sibling span to loop through again
+  $activeChar.classList.remove('active')
+  $activeChar.nextSibling.setAttribute('class','active')
 }
 
 //creating span with one character inside

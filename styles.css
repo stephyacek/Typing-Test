@@ -11,3 +11,7 @@
 .incorrect {
   color: red;
 }
+
+input {
+  width: 400px;
+}
