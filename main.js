@@ -37,7 +37,7 @@ function createLetter(character) {
 
 function createPrompt(sentence) {
   for (var i = 0; i < sentence.length; i++) {
-    var zombie = createLetter(sentence[i])
-    $pangram.appendChild(zombie)
+    var eachLetter = createLetter(sentence[i])
+    $pangram.appendChild(eachLetter)
   }
 }
