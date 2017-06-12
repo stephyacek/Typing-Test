@@ -19,8 +19,21 @@ input {
 div {
   margin-top: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 .total-score {
   color: green;
+}
+
+form {
+  text-align: center;
+}
+
+#pangram {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
