@@ -31,7 +31,7 @@ function matching(event) {
   var $correct = document.querySelectorAll('.correct')
   var score = $correct.length/typeThis.length
   var $totalScore = document.querySelector('.total-score')
-
+  $totalScore.textContent = Math.ceil(score * 100 + 1) + "%"
 }
 
 function createLetter(character) {
