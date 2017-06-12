@@ -1,4 +1,17 @@
+
 .active {
   font-weight: bold;
   font-size: 2rem;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+input {
+  width: 400px;
 }
