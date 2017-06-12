@@ -28,6 +28,8 @@ function matching(event) {
   $activeChar.nextSibling.setAttribute('class','active')
 }
 
+
+
 function createLetter(character) {
   var $pan = document.createElement('span')
   $pan.textContent = character
