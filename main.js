@@ -24,7 +24,6 @@ function matching(event) {
   else {
     $activeChar.classList.add('incorrect')
   }
-
   $activeChar.classList.remove('active')
   $activeChar.nextSibling.setAttribute('class','active')
 }
